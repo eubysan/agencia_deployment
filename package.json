@@ -1,0 +1,23 @@
+{
+  "name": "agenciasviajesnode",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Euby Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.3.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "sequelize": "^6.14.1"
+  }
+}
